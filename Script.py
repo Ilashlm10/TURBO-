@@ -1,61 +1,24 @@
 class script(object):
-    START_TXT = """Yo...Yo...ANURAG {} 💖
-I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group
+    START_TXT = """Hey there! I'm your advanced auto filter bot 🤖\nFast and efficient at your service! ⚡️\nLet's keep this chat clean and enjoyable 🚀\nFeel free to ask for help anytime! 🙌"""
+    HELP_TXT = """<b>Hᴇʏ {}
+Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/creatorbeatz'>Jᴏᴇʟ Kᴜʀɪᴀɴ Bɪᴊᴜ</a>
+✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
+✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
+✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
 
-Its Easy To Use Me; Just Add Me To Your Group As Admin, 
-Thats All, i will Provide Movies There...🤓🤪
-
-
-⚠️More Help Check Help Button Below
-
-😎 Powered by @MOVIES_ZILAA
-
-©️ Maintained By @GuruBhai11"""
-    HELP_TXT = """
-    🙋🏻‍♂️   Hellooo  {} 🤓
-
-○  Tutorial video is here @sources_cods
-
-○  it's Note Complicated...🤓
-
-○  Search using inline mode
-This methord works on any chat, Just type @Filters_Ro_Bot and then leave a space and search any movie you want...
-
-○ Available Commands
-     
- /start - Check I'm Alive..
- /status - Bot Status
- /info - User info 
- /id - User id
- /stats - Db status  
- /broadcast - Broadcast (owner only)
-
-○ Notice 📙:-
-
-○Dont Spam Me...🤒
-
-😎 Powered by @MOVIES_ZILAA
-
-©️ Maintained By @GuruBhai11"""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Am_RoBots>ᴀᴍ_ᴛᴇᴄʜ</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/8769ANURAG/EvaMaria  
-
-<b>DEVS:</b>
-- <a href=https://t.me/Am_RoBots>ᴀᴍ_ᴛᴇᴄʜ</a>"""
+    SOURCE_TXT = """ • <h1><u>Thanks To</u></h1>\n • Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)\n • Thanks To Mahesh For His Awesome [Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot)\n • Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)\n • Thanks To All Everyone In This Journey\n• Thanks To [EvamariaTG](https://raw.githubusercontent.com/EvamariaTG) for their awesome [EvaMaria Bot](https://raw.githubusercontent.com/EvamariaTG/EvaMaria)\n • Thanks To Me 😂\n• <h1><u>Main Editors</u></h1>\n
+ • <a href='tg://user?id=1951205538'>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</a>
+ • <a href='tg://user?id=1177577143'>Jᴏᴇʟ ᠰ TɢX</a> """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -66,15 +29,15 @@ This methord works on any chat, Just type @Filters_Ro_Bot and then leave a space
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/sources_cods)</code>
+<code>[Button Text](buttonurl:https://t.me/mflinkzbot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -101,10 +64,10 @@ This methord works on any chat, Just type @Filters_Ro_Bot and then leave a space
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of this bot
 
 <b>Commands and Usage:</b>
-• /id - <code>get id of a specified user.</code>
+• /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
@@ -116,7 +79,6 @@ This module only works for my admins
 <b>Commands and Usage:</b>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
-• /delete - <code>to delete a specific file from db.</code>
 • /users - <code>to get list of my users and ids.</code>
 • /chats - <code>to get list of the my chats and ids </code>
 • /leave  - <code>to leave from a chat.</code>
@@ -125,11 +87,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> """
+    STATUS_TXT = """➥ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs</b>: <i>{}</i>
+➥ <b>ᴛᴏᴛᴀʟ ᴜsᴇʀs</b>: <i>{}</i>
+➥ <b>ᴛᴏᴛᴀʟ ᴄʜᴀᴛs</b>: <i>{}</i>
+➥ <b>ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ</b>: <i>{}</i> 
+➥ <b>ғʀᴇᴇ sᴛᴏʀᴀɢᴇ</b>: <i>{}</i> """
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
@@ -139,3 +101,38 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}
 """
+    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
+
+╔═════•✧❅✦❅✧•═════╗
+▣ <a href=https://t.me/cinemaworld_123>​𝙲𝙸𝙽𝙴𝙼𝙰 𝚆𝙾𝚁𝙻𝙳</a>
+▣ <a href=t.me/cinemaworld_update>𝙲𝙸𝙽𝙴𝙼𝙰 𝚆𝙾𝚁𝙻𝙳 𝚄𝙿𝙳𝙰𝚃𝙴𝚂​</a>
+╚═════•✧❅✦❅✧•═════╝</b>"""
+    CREDIT_INFO = """
+      <b>⍟───[ Cʀᴇᴅɪᴛꜱ ]───⍟</b>   
+𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href=https://github.com/EvamariaTG>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
+𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href=https://t.me/movieman_22>тнє мαη</a>
+𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Leomessi_10_19>ʟᴇᴏ ᴍᴇꜱꜱɪ</a>
+𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒 : <a href=t.me/CINEMAWORLD_UPDATE>𝙲𝙸𝙽𝙴𝙼𝙰 𝚆𝙾𝚁𝙻𝙳</a>
+
+       <b>⍟───[ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ]───⍟</b>
+𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href=https://t.me/movieman_22>тнє мαη 😶‍🌫️</a>
+𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href=https://t.me/Leomessi_10_19>Asᴋ ʜɪᴍ 💻</a>
+
+       <b>⍟───[Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ]───⍟</b>
+𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/movieman_22>тнє мαη</a>
+𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/Leomessi_10_19>ʟᴇᴏ ᴍᴇꜱꜱɪ</a>"""   
+    OWNER_INFO = """
+<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ʟᴇᴏ ᴍᴇꜱꜱɪ
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Leomessi_10_19 
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Leomessi_10_19'>ʟᴇᴏ ᴍᴇꜱꜱɪ</a></b>"""
+    ALL_FILTERS = """
+<b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
+    GROUP_INFO = """
+<b>⍟ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs Mᴏᴅᴜʟᴇ ⍟</b>
+🎬 Cᴏᴍᴘʟᴇᴛᴇ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Gʀᴏᴜᴘ.
+🚦 Aʟʟ Lᴀɴɢᴜᴀɢᴇs Mᴏᴠɪᴇs & Sᴇʀɪᴇs.
+🗣️ Bᴏᴛ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.
+📢 Bᴏᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ."""
+    
